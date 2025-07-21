@@ -1,5 +1,8 @@
+namespace my;
+
 entity Books {
-  ID    : Integer;
-  title : String;
-  author: String;
+  key ID    : Integer;
+  title    : String;
+  author   : String;
+  price    : Decimal(9,2);
 }
